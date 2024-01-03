@@ -17,8 +17,8 @@ export default {
       },
     },
     fontFamily: {
-      secondaryFront: ['Poppins' , 'sans-serif'],
       primaryFront: ['Quicksand', 'sans-serif'],
+      secondaryFront: ['Poppins' , 'sans-serif'],
     },
   },
   plugins: [require("daisyui")],

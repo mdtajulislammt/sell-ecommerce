@@ -4,7 +4,7 @@ import NavLogo from "./NavLogo/NavLogo";
 
 const Navbar = () => {
      return (
-          <nav>
+          <nav className="">
              <NavHeader/>
              <NavLogo/>
              <NavLinks/>  
