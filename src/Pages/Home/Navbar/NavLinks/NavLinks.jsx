@@ -147,7 +147,7 @@ const NavLinks = () => {
   );
   return (
     <div className=" px-10  my-8 leading-[-20px]">
-      <ul className=" flex gap-9 tracking-wider   flex-wrap uppercase justify-center ">{navLinks}</ul>
+      <ul className=" flex gap-9  tracking-wider   flex-wrap uppercase justify-center ">{navLinks}</ul>
       
     </div>
   );
