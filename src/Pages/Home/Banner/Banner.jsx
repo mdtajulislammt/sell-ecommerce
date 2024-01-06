@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 
 const Banner = () => {
      return (
-          <div className='mb-20'>
+          <div className='mb-20 text-black'>
                <Swiper
         spaceBetween={30}
         
@@ -30,28 +30,28 @@ const Banner = () => {
           <img 
           className='w-full absolute h-full object-cover'
           src={banner1} />
-          <Link to={'/'}><button className=' relative left-[50%] top-2 font-bold rounded text-primary-white bg-primary-green p-2 px-5 uppercase'>Shop now</button></Link>
+          <Link to={'/'}><button className=' relative left-[50%] top-2 font-bold rounded-[3px] text-primary-white bg-primary-greenLight p-3 px-5 uppercase'>Shop now</button></Link>
         </SwiperSlide>
         {/* 2nd slider */}
         <SwiperSlide>
           <img
           className='w-full absolute h-full object-cover'
           src={banner2} />
-          <Link to={'/'}><button className=' relative left-[50%] top-2 font-bold rounded text-primary-white bg-primary-green p-2 px-5 uppercase'>Offer now</button></Link>
+          <Link to={'/'}><button className=' relative left-[50%] top-2 font-bold rounded-[3px] text-primary-white bg-primary-greenLight p-3 px-5 uppercase'>Offer now</button></Link>
         </SwiperSlide>
         {/* 3rd slider */}
         <SwiperSlide>
           <img
           className='w-full absolute h-full object-cover'
           src={banner3} />
-          <Link to={'/'}><button className=' relative left-[50%] top-2 font-bold rounded text-primary-white bg-primary-green p-2 px-5 uppercase'>Shop now</button></Link>
+          <Link to={'/'}><button className=' relative left-[50%] top-2 font-bold rounded-[3px] text-primary-white bg-primary-greenLight p-3 px-5 uppercase'>Shop now</button></Link>
         </SwiperSlide>
         {/* 4th slider */}
         <SwiperSlide>
           <img
           className='w-full absolute h-full object-cover'
           src="https://swiperjs.com/demos/images/nature-4.jpg" />
-          <Link to={'/'}><button className=' relative left-[50%] top-2 font-bold rounded text-primary-white bg-primary-green p-2 px-5 uppercase'>Offer now</button></Link>
+          <Link to={'/'}><button className=' relative left-[50%] top-2 font-bold rounded-[3px] text-primary-white bg-primary-greenLight p-3 px-5 uppercase'>Offer now</button></Link>
         </SwiperSlide>
       </Swiper>
 
