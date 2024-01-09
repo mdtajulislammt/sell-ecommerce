@@ -7,7 +7,7 @@ import "./styles.css";
 import ShoppingCart from "./ShoppingCart/ShoppingCart";
 import NavUser from "./NavUser/NavUser";
 import { useEffect, useState } from "react";
-import NavLinks2 from "./NavLinks/NavLinks2";
+
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -43,7 +43,6 @@ const Navbar = () => {
 
             {/* shopping cart */}
             <ShoppingCart />
-            <NavLinks2 />
           </div>
         </div>
         <NavLinks />

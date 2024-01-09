@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 
 const Banner = () => {
      return (
-          <div className='mb-20 lg:mt-10 md:mt-52 mt-28  text-black'>
+          <div className='mb-10 lg:mt-10 md:mt-52 mt-28  text-black'>
                <Swiper
         spaceBetween={30}
         
