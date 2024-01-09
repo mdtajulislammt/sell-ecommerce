@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const SignUp = () => {
      const [showPassword,setShowPassword] = useState(false)
      return (
-          <div className=" flex justify-center">
+          <div className=" flex justify-center px-10 lg:pt-0 md:pt-40 pt-28">
                 <form
                 className=" w-[500px] mb-10 rounded-md border-2 shadow-lg p-4  space-y-4 md:space-y-6"
                 action="#"
