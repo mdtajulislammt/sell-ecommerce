@@ -3,10 +3,10 @@ import CrazyOffers from "./CrazyOffers/CrazyOffers";
 
 const Home = () => {
      return (
-          <div className="px-10">
+          <div className="md:px-10 px-5">
                <Banner></Banner>
                <CrazyOffers></CrazyOffers>
-          </div>
+          </div>  
      );
 };
 

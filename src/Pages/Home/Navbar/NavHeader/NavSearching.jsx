@@ -11,7 +11,7 @@ const NavSearching = () => {
                 <path stroke="currentColor" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
             </svg>
         </div>
-        <input type="search"  className="  font-secondaryFront font-normal w-40  p-[6px] ps-10 text-sm rounded-[3px] text-primary-black  border-gray-300  bg-gray-50  " placeholder="Search"  />
+        <input type="search"  className="  font-secondaryFront font-normal w-44  p-[6px] ps-10 text-sm rounded-[3px] text-primary-black  border-gray-300  bg-gray-50  " placeholder="Search"  />
     </div>
 
 

@@ -10,8 +10,10 @@ export default {
         primary:{
           green: '#1b9f29',
           greenLight:'#60b065',
-          black:"#1b222f",
+          yellow: '#f4d40d',
+          black:"#040707",
           white:"#ffffff",
+          blue:"#3279bb",
           red:'#ff0000'
         },
       },

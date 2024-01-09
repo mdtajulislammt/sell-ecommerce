@@ -1,24 +1,48 @@
-import { Link } from "react-router-dom";
-import NavSearching from "./NavSearching";
-import { PiShoppingCartBold } from "react-icons/pi";
+
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
+// import required modules
+import { Autoplay, Navigation } from 'swiper/modules';
+
 
 const NavHeader = () => {
      return (
-          <div className=" bg-primary-green flex justify-between p-2 font-bold text-sm  px-10 text-primary-white ">
-               <div>
-                    <h3 className="mt-2 ">Advance bKash 130 BDT on Outside Dhaka Orders. (bKash merchant payment-01708729789) <br /> Call to Order: 096 13119911 (10am- 10pm).</h3>
-               </div>
-               <div> 
-                    <div className=" flex justify-end gap-1 mb-1">
-                         <Link>Log in</Link>
-                         <span> / </span>
-                         <Link>Sign up</Link>
-                    </div>
-                    <div className=" flex justify-end items-center gap-6">
-                         <Link className=" flex items-center  gap-2"> <PiShoppingCartBold /> <span>Cart</span></Link>
-                         <NavSearching/>
-                    </div>
-               </div>
+          <div className="z-[1000] bg-primary-black flex justify-between p-4 font-bold text-sm  md:px-10 px-5 text-primary-white text-center ">
+
+<Swiper
+        spaceBetween={0}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Navigation]}
+        className=" w-full"
+      >
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide>
+      </Swiper>
+
+
+               
           </div>
      );
 };
