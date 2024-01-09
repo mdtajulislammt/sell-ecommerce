@@ -30,28 +30,28 @@ const Banner = () => {
           <img 
           className='w-full absolute h-full object-cover'
           src={banner1} />
-          <Link to={'/'}><button className=' relative left-[35%] md:left-[50%] top-2 font-bold rounded-[3px] text-primary-white bg-primary-greenLight p-3 px-5 uppercase'>Shop now</button></Link>
+          <Link to={'/'}><button className=' relative left-[35%] md:left-[50%] md:top-[83%] top-[70%] font-bold rounded-[3px] text-primary-blue bg-primary-yellow md:p-3 p-1 md:px-5 px-3 uppercase'>Shop now</button></Link>
         </SwiperSlide>
         {/* 2nd slider */}
         <SwiperSlide>
           <img
           className='w-full absolute h-full object-cover'
           src={banner2} />
-          <Link to={'/'}><button className=' relative left-[35%] md:left-[50%] top-2 font-bold rounded-[3px] text-primary-white bg-primary-greenLight p-3 px-5 uppercase'>Offer now</button></Link>
+          <Link to={'/'}><button className=' relative left-[35%] md:left-[50%] md:top-[83%] top-[70%] font-bold rounded-[3px] text-primary-blue bg-primary-yellow md:p-3 p-1 md:px-5 px-3 uppercase'>Shop now</button></Link>
         </SwiperSlide>
         {/* 3rd slider */}
         <SwiperSlide>
           <img
           className='w-full absolute h-full object-cover'
           src={banner3} />
-          <Link to={'/'}><button className=' relative left-[35%] md:left-[50%] top-2 font-bold rounded-[3px] text-primary-white bg-primary-greenLight p-3 px-5 uppercase'>Shop now</button></Link>
+          <Link to={'/'}><button className=' relative left-[35%] md:left-[50%] md:top-[83%] top-[70%] font-bold rounded-[3px] text-primary-blue bg-primary-yellow md:p-3 p-1 md:px-5 px-3 uppercase'>Shop now</button></Link>
         </SwiperSlide>
         {/* 4th slider */}
         <SwiperSlide>
           <img
           className='w-full absolute h-full object-cover'
           src="https://swiperjs.com/demos/images/nature-4.jpg" />
-          <Link to={'/'}><button className=' relative left-[35%] md:left-[50%] top-2 font-bold rounded-[3px] text-primary-white bg-primary-greenLight p-3 px-5 uppercase'>Offer now</button></Link>
+          <Link to={'/'}><button className=' relative left-[35%] md:left-[50%] md:top-[83%] top-[70%] font-bold rounded-[3px] text-primary-blue bg-primary-yellow md:p-3 p-1 md:px-5 px-3 uppercase'>Shop now</button></Link> 
         </SwiperSlide>
       </Swiper>
 

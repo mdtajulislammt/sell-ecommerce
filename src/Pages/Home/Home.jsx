@@ -1,5 +1,7 @@
 import TrendingCategorise from "../TrendingCategorise/TrendingCategorise";
 import Banner from "./Banner/Banner";
+import BestSeller from "./BestSeller/BestSeller";
+import POLO from "./CategoryProducts/POLO/POLO";
 import CrazyOffers from "./CrazyOffers/CrazyOffers";
 
 const Home = () => {
@@ -8,6 +10,8 @@ const Home = () => {
                <Banner></Banner>
                <CrazyOffers></CrazyOffers>
                <TrendingCategorise/>
+               <BestSeller/>
+               <POLO/>
           </div>  
      );
 };

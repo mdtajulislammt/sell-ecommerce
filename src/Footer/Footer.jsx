@@ -46,7 +46,7 @@ const Footer = () => {
       <label className="label">
         <span className="label-text">Enter your email address</span>
       </label> 
-      <div className="join">
+      <div className="join -mt-7">
         <input type="text" placeholder="email" className=" text-primary-black lg:w-40 md:w-20 md:p-3 input-bordered join-item" /> 
         <button className="bg-primary-yellow btn-primary text-primary-black px-2 font-bold join-item">Subscribe</button>
       </div>
@@ -73,6 +73,11 @@ const Footer = () => {
     </div>
   </nav>
   </div>
+  <div className="footer footer-center p-4 bg-primary-black border-t mt-4 text-primary-white ">
+  <aside>
+    <p>Copyright © 2024 - All right reserved by MD Tajul Islam</p>
+  </aside>
+</div>
 </footer>
      );
 };
