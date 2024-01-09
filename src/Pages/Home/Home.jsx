@@ -2,6 +2,7 @@ import TrendingCategorise from "../TrendingCategorise/TrendingCategorise";
 import Banner from "./Banner/Banner";
 import BestSeller from "./BestSeller/BestSeller";
 import POLO from "./CategoryProducts/POLO/POLO";
+import ContactUs from "./ContactUs/ContactUs";
 import CrazyOffers from "./CrazyOffers/CrazyOffers";
 import LetestProducts from "./LetestProducts/LetestProducts";
 
@@ -14,6 +15,7 @@ const Home = () => {
                <BestSeller/>
                <LetestProducts/>
                <POLO/>
+               <ContactUs/>
           </div>  
      );
 };
