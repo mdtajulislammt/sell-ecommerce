@@ -4,11 +4,12 @@ import appleStore from '../assets/apple.webp'
 import payment from '../assets/master-payments-image.webp'
 import { FaApple, FaFacebookF, FaInstagramSquare, FaPinterest, FaSnapchatGhost } from "react-icons/fa";
 import { FaTwitter } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
      return (
           <footer className=" py-5 px-8 bg-primary-black text-base-content">
-               <img src={logo} alt=""  className='w-52 my-8'/>
+               <Link to={'/'}><img src={logo} alt=""  className='w-52 my-8'/></Link>
   <div className=' grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 uppercase'>
      {/* CUSTOMER SERVICE */}
   <nav className="text-primary-white flex flex-col">
@@ -46,7 +47,7 @@ const Footer = () => {
         <span className="label-text">Enter your email address</span>
       </label> 
       <div className="join">
-        <input type="text" placeholder="username@site.com" className="input input-bordered join-item" /> 
+        <input type="text" placeholder="email" className=" text-primary-black lg:w-40 md:w-20 md:p-3 input-bordered join-item" /> 
         <button className="bg-primary-yellow btn-primary text-primary-black px-2 font-bold join-item">Subscribe</button>
       </div>
     </fieldset>
@@ -58,7 +59,7 @@ const Footer = () => {
   {/* DOWNLOAD THE APP */}
   <nav className="text-primary-white flex flex-col pt-7">
   <header className=" font-bold text-primary-yellow mb-3">DOWNLOAD THE APP</header> 
-    <div className=' flex items-center gap-2'>
+    <div className=' lg:flex items-center gap-2'>
     <img src={playstore} alt="" className='w-28' />
     <img src={appleStore} alt="" className='w-28' />
     </div>
