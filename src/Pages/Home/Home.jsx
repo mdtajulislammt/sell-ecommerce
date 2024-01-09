@@ -3,6 +3,7 @@ import Banner from "./Banner/Banner";
 import BestSeller from "./BestSeller/BestSeller";
 import POLO from "./CategoryProducts/POLO/POLO";
 import CrazyOffers from "./CrazyOffers/CrazyOffers";
+import LetestProducts from "./LetestProducts/LetestProducts";
 
 const Home = () => {
      return (
@@ -11,6 +12,7 @@ const Home = () => {
                <CrazyOffers></CrazyOffers>
                <TrendingCategorise/>
                <BestSeller/>
+               <LetestProducts/>
                <POLO/>
           </div>  
      );
