@@ -59,8 +59,8 @@ const CartDetails = () => {
         )
      return (
           <div className="px-10 pb-10 pt-32 lg:pt-0">
-               <div className=" md:flex justify-between  gap-20  ">
-             <div className=" md:w-[300px]   justify-start">
+               <div className=" md:flex justify-center  gap-10   ">
+             <div className=" md:w-[300px]    justify-start">
              <div ref={sliderRef} className="keen-slider  border">
         <div className="keen-slider__slide number-slide1 w-full"><img src={addImg1} alt=""  /></div>
         <div className="keen-slider__slide number-slide2"><img src={addImg2} alt="" /></div>
@@ -77,7 +77,7 @@ const CartDetails = () => {
       </div>
              </div>
 
-             <div className="">
+             <div className="w-[450px]">
                <h2 className=" text-2xl font-bold">Tittle</h2>
                <p className=" font-semibold mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci atque culpa quia </p>
                <p className=" font-semibold  = items-center gap-4 justify-center"> <span className=" font-bold text-3xl">$2000</span><s className="text-gray-600 px-3 text-lg" >$4000</s> <span className=" text-2xl font-bold text-primary-blue">58% OFF</span> </p>
