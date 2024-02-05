@@ -82,19 +82,31 @@ const CartDetails = () => {
                <p className=" font-semibold mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci atque culpa quia </p>
                <p className=" font-semibold  = items-center gap-4 justify-center"> <span className=" font-bold text-3xl">$2000</span><s className="text-gray-600 px-3 text-lg" >$4000</s> <span className=" text-2xl font-bold text-primary-blue">58% OFF</span> </p>
                <p className="font-semibold mb-7">*Subject to VAT inclusion</p>
-               
+               {/* size button */}
                <div className="mb-3">
-                    <h3 className=" text-lg font-semibold">Size :</h3>
-                    <input type="number" placeholder="1" className=" border-2 border-primary-yellow rounded p-2 pl-2 w-20" />
+                    <h3 className=" text-lg font-semibold items-center">Size :</h3>
+                    <div className=" flex gap-4">
+                      <h3 className=" text-center font-extrabold border-2 border-primary-yellow rounded px-4 py-2 hover:bg-black hover:text-primary-yellow hover:border-primary-black duration-200 cursor-pointer">M</h3>
+                      <h3 className=" text-center font-extrabold border-2 border-primary-yellow rounded px-4 py-2 hover:bg-black hover:text-primary-yellow hover:border-primary-black duration-200 cursor-pointer">L</h3>
+                      <h3 className=" text-center font-extrabold border-2 border-primary-yellow rounded px-4 py-2 hover:bg-black hover:text-primary-yellow hover:border-primary-black duration-200 cursor-pointer">XL</h3>
+                      <h3 className=" text-center font-extrabold border-2 border-primary-yellow rounded px-4 py-2 hover:bg-black hover:text-primary-yellow hover:border-primary-black duration-200 cursor-pointer">2XL</h3>
+                      <h3 className=" text-center font-extrabold border-2 border-primary-yellow rounded px-4 py-2 hover:bg-black hover:text-primary-yellow hover:border-primary-black duration-200 cursor-pointer">3XL</h3>
+                      
+                    </div>
                </div>
+               {/* Quantity */}
                <div>
                     <h3 className=" text-lg font-semibold">Quantity :</h3>
-                    <input type="number" placeholder="1" className=" border-2 border-primary-yellow rounded pl-2  p-2" />
+                    <h3 className=" flex items-center gap-4 rounded border-2 border-primary-yellow justify-between w-32">
+                      <span className=" text-center font-extrabold   rounded px-4 py-2 hover:bg-black hover:text-primary-yellow hover:border-primary-black duration-200 cursor-pointer ">-</span>
+                      <span>1</span>
+                      <span className=" text-center font-extrabold   rounded px-4 py-2 hover:bg-black hover:text-primary-yellow hover:border-primary-black duration-200 cursor-pointer">+</span>
+                    </h3>
                </div>
 
                <div>
-               <Link> <button className=" border-2 mb-7  p-2 px-5 uppercase font-bold mt-4 border-primary-yellow">ADD to card</button></Link>
-               <Link> <button className=" border-2 mb-7  p-2 px-5 uppercase font-bold mt-4 border-primary-blue bg-primary-blue text-primary-white ml-2">Buy It now</button></Link>
+               <Link> <button className=" border-2 mb-7  p-2 px-5 uppercase font-bold mt-4 border-primary-yellow  hover:bg-black hover:text-primary-yellow hover:border-primary-black duration-200 cursor-pointer">ADD to card</button></Link>
+               <Link> <button className=" border-2 mb-7  p-2 px-5 uppercase font-bold mt-4 border-primary-blue bg-primary-blue text-primary-white ml-2 ">Buy It now</button></Link>
                </div>
              </div>
           </div>
