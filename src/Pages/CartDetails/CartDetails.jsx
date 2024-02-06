@@ -105,9 +105,17 @@ const CartDetails = () => {
                </div>
 
                <div>
-               <Link> <button className=" border-2 mb-7  p-2 px-5 uppercase font-bold mt-4 border-primary-yellow  hover:bg-black hover:text-primary-yellow hover:border-primary-black duration-200 cursor-pointer">ADD to card</button></Link>
+               <Link to={'/addToCart'}> <button className=" border-2 mb-7  p-2 px-5 uppercase font-bold mt-4 border-primary-yellow  hover:bg-black hover:text-primary-yellow hover:border-primary-black duration-200 cursor-pointer">ADD to card</button></Link>
                <Link> <button className=" border-2 mb-7  p-2 px-5 uppercase font-bold mt-4 border-primary-blue bg-primary-blue text-primary-white ml-2 ">Buy It now</button></Link>
                </div>
+               <ul className="list-disc ml-5 text-lg font-bold text-gray-500">
+                <li>Full Sleeve Casual Zip Hoodie with drawstring</li>
+                <li>Kangaroo pocket</li>
+                <li>Soft, comfortable and perfect for winter</li>
+                <li>100% Cotton fleece inside brushed, 300gsm</li>
+                <li>Soft Finished</li>
+                <li>Used 2X2 Lycra Rib at bottom & cuff</li>
+               </ul>
              </div>
           </div>
           <div className="divider"></div> 
