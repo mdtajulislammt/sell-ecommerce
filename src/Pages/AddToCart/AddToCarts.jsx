@@ -17,21 +17,21 @@ const AddToCarts = () => {
           <h3>Filter :</h3>
 
           <select name="Availability" id="">
-          <option value="1">Availability</option>
-          <option value="2">Availability</option>
-          <option value="3">Availability</option>
+          <option value="1">Availability 1</option>
+          <option value="2">Availability 2</option>
+          <option value="3">Availability 3</option>
           </select>
 
           <select name="Price" id="">
-          <option value="1">Price</option>
-          <option value="2">Price</option>
-          <option value="3">Price</option>
+          <option value="1">Price 1</option>
+          <option value="2">Price 2</option>
+          <option value="3">Price 3</option>
           </select>
 
           <select name="Size" id="">
-          <option value="1">Size</option>
-          <option value="2">Size</option>
-          <option value="3">Size</option>
+          <option value="1">Size 1</option>
+          <option value="2">Size 2</option>
+          <option value="3">Size 3</option>
           </select>
         </div>
 
