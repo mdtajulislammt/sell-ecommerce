@@ -13,10 +13,10 @@ const BestSeller = () => {
                <SectionTittle header={'Our Best Seller'}/>
 
                <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 py-10">
-                    <TrendingCategoryCard tittle={'Round Neck Grey Half Sleeve'} image={img1} offer={'35'}/>
-                    <TrendingCategoryCard tittle={'Round Neck Grey Half Sleeve'} image={img2} offer={'35'}/>
-                    <TrendingCategoryCard tittle={'Round Neck Grey Half Sleeve'} image={img3} offer={'35'}/>
-                    <TrendingCategoryCard tittle={'Round Neck Grey Half Sleeve'} image={img4} offer={'35'}/>
+                    <TrendingCategoryCard tittle={'Round Neck Grey Half Sleeve'} image={img1} offer={'40'}/>
+                    <TrendingCategoryCard tittle={'Round Neck Grey Half Sleeve'} image={img2} offer={'40'}/>
+                    <TrendingCategoryCard tittle={'Round Neck Grey Half Sleeve'} image={img3} offer={'40'}/>
+                    <TrendingCategoryCard tittle={'Round Neck Grey Half Sleeve'} image={img4} offer={'40'}/>
                </div>
                
           </section>
