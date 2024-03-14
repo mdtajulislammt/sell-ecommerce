@@ -44,7 +44,7 @@ const Footer = () => {
     <header className=" font-bold text-primary-yellow mb-5">KEEP UP TO DATE</header> 
     <fieldset className="form-control w-80">
       <label className="label">
-        <span className="label-text">Enter your email address</span>
+        <span className="label-text">Enter your Email address</span>
       </label> 
       <div className="join -mt-7">
         <input type="text" placeholder="email" className=" text-primary-black lg:w-40 md:w-20 md:p-3 input-bordered join-item" /> 
@@ -53,8 +53,8 @@ const Footer = () => {
     </fieldset>
   </form>
   <nav className="text-primary-white flex flex-col pt-16">
-    <a className="link link-hover">15 Days return policy*</a>
-    <a className="link link-hover">Cash on delivery*</a>
+    <a className="link link-hover">15 Days return policy**</a>
+    <a className="link link-hover">Cash on delivery**</a>
   </nav>
   {/* DOWNLOAD THE APP */}
   <nav className="text-primary-white flex flex-col pt-7">
