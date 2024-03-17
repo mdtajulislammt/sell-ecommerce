@@ -22,7 +22,7 @@ const Footer = () => {
   {/* COMPANY */}
   <nav className="text-primary-white flex flex-col ">
     <header className=" font-bold text-primary-yellow mb-5">Company</header> 
-    <a className="link link-hover">About us</a>
+    <a className="link link-hover">About Us</a>
     <a className="link link-hover">Contact</a>
     <a className="link link-hover">Jobs</a>
     <a className="link link-hover">Press kit</a>
@@ -30,7 +30,7 @@ const Footer = () => {
   {/* CONNECT WITH US */}
   <nav className="text-primary-white flex flex-col gap-2">
     <header className=" font-bold text-primary-yellow mb-5">CONNECT WITH US</header> 
-    <a className="link link-hover flex items-center gap-2"><FaInstagramSquare /> <span>4.7M People Like this</span></a>
+    <a className="link link-hover flex items-center gap-2"><FaInstagramSquare /> <span>4.7M People Like this website</span></a>
     <a className="link link-hover flex items-center gap-2"><FaFacebookF /> <span>1M Followers</span></a>
     <div className='flex items-center gap-5 mt-3'>
     <a className="link link-hover"><FaApple /></a>
